@@ -4,12 +4,12 @@
 using namespace std;
 
 int main() {
-cout « "Enter the diameter: ";
-double diameter;
-cin » diameter;
-const double PI = 3.141592;
-double length = PI * diameter;
-double area = length * diameter / 4;
-cout « "Length: " « length « ", area: " « area « endl;
-return 0;
-} 
+	cout << "Enter the diameter: ";
+	double diameter;
+	cin >> diameter;
+	const double PI = 3.141592;
+	double length = PI * diameter;
+	double area = length * diameter / 4;
+	cout << "Length: " << length << ", area: " << area << endl;
+	return 0;
+}
